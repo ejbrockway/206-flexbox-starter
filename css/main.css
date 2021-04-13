@@ -111,16 +111,17 @@ body {
 
 header,
 footer {
-  background-color: #222;
+  background-color: #a8b4ae;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 2em;
+  justify-content: flex-start;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #228e58;
+  font-size:2rem;
   height: 250px;
   width: 100%;
 }
@@ -133,6 +134,7 @@ main {
 
 .flex-container {
   display: flex;
+  flex:auto;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -143,10 +145,11 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #6b4789;
   width: 30%;
   height: 200px;
 }
+
 
 /* ==========================================================================
    Helper classes
